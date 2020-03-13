@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mariocairone</groupId>
 	<artifactId>log4j2-prop-lookup</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 
 	<name>Log4j2: Properties lookup</name>
 	<description>A log4j2 plugin to lookup properties from yaml and properties files</description>

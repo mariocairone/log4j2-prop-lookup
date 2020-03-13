@@ -13,7 +13,7 @@ To enable the plugin, include the following dependency in the `pom.xml`
 <dependency>
     <groupId>com.mariocairone</groupId>
     <artifactId>log4j2-prop-lookup</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency> 
 ```
 

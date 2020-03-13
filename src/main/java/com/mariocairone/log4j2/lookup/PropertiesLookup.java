@@ -42,7 +42,7 @@ public class PropertiesLookup extends AbstractConfigurationAwareLookup implement
 				Arrays.asList(files.split(",")).forEach(fileName -> {
 					String filePath = getFilePath(dir,fileName);
 					PropertiesLoader loader = PropertiesLoaderFactory.createPropertiesLoader(filePath);
-					this.properties = loader.getProperties();
+					this.properties.putAll(loader.getProperties());
 				});
 				loaded = true;
 			}
